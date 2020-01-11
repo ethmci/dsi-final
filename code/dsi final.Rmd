@@ -1,0 +1,76 @@
+---
+title: "dsi final"
+author: "Ethan McInerney"
+date: "1/10/2020"
+output: html_document
+---
+
+1. 
+
+2. Research Question and Exploratory Data Analysis
+
+3. Importance
+
+4. Methodology
+
+5. Results
+
+```{r regression models}
+#REGRESSION MODEL
+summary(lm(tgss$ADVFRONT ~ tgss$RELIG + tgss$POLVIEWS + tgss$INCOME + tgss$SEX + tgss$DEGREE + tgss$AGE + tgss$RACE, weights = tgss$WTSSALL))
+
+#REGRESSION MODEL for SCI KNOWLEDGE
+summary(lm(tgss$sciknowledge ~ tgss$RELIG + tgss$POLVIEWS + tgss$INCOME + tgss$SEX + tgss$DEGREE + tgss$AGE + tgss$RACE, weights = tgss$WTSSALL))
+
+```
+
+6. 
+
+
+a) understand the
+analysis, b) be motivated about the importance of the question, and c) comprehend the intellectual debate in
+1
+which the paper participates. It is difficult to imagine doing this well, and describe your methods, results,
+and interpretations in under 5 pages. Aim for quality.
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(haven)
+library(Hmisc)
+library(descr)
+library(weights)
+
+gss <- read_sav("~/gss_spss_with_codebook/GSS7218_R2.sav")
+
+```
+
+
+```{r, cache = TRUE}
+
+
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+## GSS Dataset 
+
+```{r cars}
+
+tgss <- select(gss, YEAR, POLVIEWS, INCOME, SEX, DEGREE, AGE, RACE, HOTCORE,  RADIOACT, 
+               EVOLVED, CONDRIFT, VIRUSES, ELECTRON, LASERS, BOYORGRL, ADVFRONT, RELIG)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

@@ -4,8 +4,8 @@ Winter 2020 Data Science Institute. Ethan M, Cameron K, Jessica K
 https://docs.google.com/document/d/1rtqjLr103hmF4sY7FRSYpdsdkCubSeClbzEVyzmZotw/edit?usp=sharing
 link to report which contains our data analysis and beginnings of a scientific report
 
-Coming into this class, Ethan was the only one with previous knowledge of R and the process of 
-completing an empirical, data-driven research paper, GOVT-310 in Spring19 w/ Prof Suhay. 
+Coming into this class, Ethan was the only one with previous experience in R and the process of 
+completing an empirical, data-driven research paper. He took GOVT-310 in Spring19 w/ Prof Suhay. 
 Cameron and Jessica are enrolled in GOVT-310 in this upcoming semester. 
 
 

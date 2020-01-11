@@ -8,9 +8,11 @@ Ethan is desparately trying to teach himself R Markdown to generate everything i
 Ethan did everything related to coding/data science.
 
 Cameron and Ethan co-wrote "Results"
+
 Cameron wrote "Abstract," "Introduction," and "Religion and Science in the US"
 
 Jessica wrote "General Social Survey" and "Hypothesis" under "Methodology"
+
 Cameron and Ethan co-wrote the rest of "Methodology"
 
-Jessica and Cameron created Presentation together except for aspects of data analysis which were input by Ethan after R scripts were compiled
+Jessica and Cameron created Presentation together except for slides that included data analysis, which were input by Ethan after R scripts were compiled
